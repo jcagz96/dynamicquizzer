@@ -11,11 +11,6 @@ const AuthRoutes: React.FC = () => {
     <Auth.Navigator
       screenOptions={{
         headerShown: false,
-        headerTintColor: '#FFF',
-        headerStyle: {
-          backgroundColor: '#7159C1',
-        },
-        cardStyle: { backgroundColor: '#312E38' },
       }}
     >
       <Auth.Screen name="SignIn" component={SignIn} />
