@@ -12,7 +12,7 @@ const SignIn: React.FC = () => {
 
   return (
     <Container>
-      <Text>signin page</Text>
+      <Text>signin page | First Commit Arruda</Text>
       <CustomButton onPress={handleSignIn}>
         <CustomButtonText>Go to Signup</CustomButtonText>
       </CustomButton>
